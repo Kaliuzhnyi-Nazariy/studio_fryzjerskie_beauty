@@ -1,0 +1,22 @@
+{
+  "about": "About",
+  "about_studio": "Lorem",
+  "services": "Services",
+  "our_team": "Our team",
+  "make_an_appointment": "Make an appointment",
+  "about_article": "Your local hair salon, where professionalism meets a warm, welcoming atmosphere. We take care of our community's hair, proving that world-class transformations are available right around the corner. You don't need to travel downtown for a trendy haircut or perfect hair color – we've created a space that combines passion, modern trends, and neighborhood friendliness. We specialize in precise haircuts tailored to your lifestyle and spectacular coloring – from natural highlights to bold color changes. Visit us, refresh your style close to home, and leave your hair in the hands of professionals.",
+  "service_article": "We offer comprehensive hair care right around your corner. We focus on simple, transparent rules and professional execution of every service, with no hidden costs.",
+  "main_services": "Main services",
+  "extra_services": "Extra services",
+  "services_list": {
+    "simple_haircut": "Simple haircut",
+    "standard_haircut": "Haircut",
+    "hair_coloring": "Hair coloring"
+  },
+  "price": "Price",
+  "extra_services_list": {
+    "hair_wash": "Hair wash"
+  },
+  "our_team_article": "Behind every great hair day is a passionate stylist! We are a team of skilled professionals who love combining the latest trends with a friendly, neighborhood vibe. We don't just cut and color—we listen, tailoring every look to your unique lifestyle. World-class talent is right around your corner. Drop by and meet us!",
+  "appointment_article": "Select a service and your favorite stylist. Let us take care of your beauty and well-being in an exceptional atmosphere."
+}

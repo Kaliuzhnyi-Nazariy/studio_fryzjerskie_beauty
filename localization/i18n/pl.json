@@ -1,0 +1,22 @@
+{
+  "about": "O nas",
+  "about_studio": "Lorem",
+  "services": "usługi",
+  "our_team": "nasz zespół",
+  "make_an_appointment": "Umówić się",
+  "about_article": "Twój lokalny salon fryzjerski, w którym profesjonalizm spotyka się z domową atmosferą. Dbamy o włosy mieszkańców naszej okolicy, udowadniając, że metamorfozy na światowym poziomie są dostępne tuż za rogiem. Nie musisz jeździć do centrum, aby zyskać modne cięcie czy idealną koloryzację – stworzyliśmy przestrzeń, w której łączymy pasję, nowoczesne trendy i sąsiedzką serdeczność. Specjalizujemy się w precyzyjnych strzyżeniach dopasowanych do Twojego stylu życia oraz w spektakularnych koloryzacjach – od naturalnych refleksów po odważne zmiany koloru. Odwiedź nas, zmień swój styl blisko domu i oddaj się w ręce profesjonalistów.",
+  "service_article": "Oferujemy kompleksową pielęgnację Twoich włosów tuż za rogiem. Stawiamy na proste, przejrzyste zasady i profesjonalne wykonanie każdej usługi, bez ukrytych kosztów.",
+  "main_services": "Usługi główne",
+  "extra_services": "Usługi dodatkowe",
+  "services_list": {
+    "simple_haircut": "Strzyżenie proste",
+    "standard_haircut": "Strzyżenie",
+    "hair_coloring": "Koloryzacja"
+  },
+  "price": "Cena",
+  "extra_services_list": {
+    "hair_wash": "Mycie głowy"
+  },
+  "our_team_article": "Za każdą udaną metamorfozą stoi stylista z pasją! Jesteśmy zespołem profesjonalistów, którzy uwielbiają łączyć najnowsze trendy z serdeczną, sąsiedzką atmosferą. Nie tylko strzyżemy i farbujemy – przede wszystkim słuchamy i dopasowujemy każdą fryzurę do Twojego stylu życia. Światowy poziom usług czeka tuż za rogiem. Wpadnij i poznaj nas bliżej!",
+  "appointment_article": "Wybierz usługę oraz swojego ulubionego stylistę. Pozwól nam zadbać o Twoje piękno i samopoczucie w wyjątkowej atmosferze."
+}

@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import About from "./components/About";
 import Services from "./components/Services";
-import OurTeam from "./components/OutTeam";
+import OurTeam from "./components/OurTeam";
 import "keen-slider/keen-slider.min.css";
 import Appointment from "./components/Appointment";
 import Footer from "./components/Footer";

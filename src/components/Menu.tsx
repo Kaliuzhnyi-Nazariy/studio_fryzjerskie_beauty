@@ -17,8 +17,6 @@ const Menu = ({
 }) => {
   const { t } = useTranslation();
 
-  if (!isOpen) return null;
-
   return (
     <div
       className={`w-full h-screen fixed top-0 left-0 z-50 transition-colors duration-300 ${
@@ -27,7 +25,6 @@ const Menu = ({
           : "bg-transparent pointer-events-none"
       }`}
       onClick={closeModal}
-      aria-hidden={!isOpen}
     >
       <div
         id={t("main-mob_navigation")}

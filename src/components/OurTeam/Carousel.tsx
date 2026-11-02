@@ -4,7 +4,7 @@ import Card from "../Card";
 import { useTranslation } from "react-i18next";
 
 const Workers = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const language = i18n.language;
 
   const [ref] = useKeenSlider<HTMLDivElement>({
@@ -17,19 +17,35 @@ const Workers = () => {
   });
 
   return (
-    <div ref={ref} className="keen-slider mt-5 max-w-220 md:w-4/5! md:mx-auto">
-      {workers.map((w) => {
+    <div
+      ref={ref}
+      className="keen-slider mt-5 max-w-220 md:w-4/5! md:mx-auto"
+      role="region"
+      aria-label={t("workers_carousel_label", { defaultValue: "Nasz zespół" })}
+    >
+      {workers.map((w, index) => {
+        const workerName = w.name;
+        const workerRole = w.role[language as keyof typeof w.role];
+
         return (
           <Card
             key={w.id}
             className="keen-slider__slide flex flex-col  gap-3 overflow-hidden min-w-0 h-full p-6 text-center items-center"
+            role="group"
+            aria-roledescription="slide"
+            aria-label={`${index + 1} z ${
+              workers.length
+            }: ${workerName} - ${workerRole}`}
           >
-            <h3 className="text-lg font-bold">{w.name}</h3>
-            <h4 className="font-semibold mt-1">
-              {w.role[language as keyof typeof w.role]}
-            </h4>
+            <h3 className="text-lg font-bold">{workerName}</h3>
+            <h4 className="font-semibold mt-1">{workerRole}</h4>
 
-            <ul className="flex flex-col gap-2 w-full my-2 items-center">
+            <ul
+              className="flex flex-col gap-2 w-full my-2 items-center"
+              aria-label={`${t("specialties", {
+                defaultValue: "Specjalizacje",
+              })}: ${workerName}`}
+            >
               {w.specialties[language as keyof typeof w.specialties].map(
                 (s) => {
                   return (

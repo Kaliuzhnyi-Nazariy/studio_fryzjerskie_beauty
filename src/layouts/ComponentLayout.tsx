@@ -20,10 +20,18 @@ const ComponentLayout = ({
       id={id}
       className={`text-center flex flex-col  ${bgImage} ${paddings}`}
     >
-      {(title || article) && (
+      {/* {(title || article) && (
         <div className="md:w-4/5 max-w-160 text-center mx-auto">
           <h2 className="uppercase font-extrabold text-2xl">{title}</h2>
-          <article className="mt-3 ">{article}</article>
+          <p className="mt-3 ">{article}</p>
+        </div>
+      )} */}
+      {(title || article) && (
+        <div className="md:w-4/5 max-w-160 text-center mx-auto">
+          {title && (
+            <h2 className="uppercase font-extrabold text-2xl">{title}</h2>
+          )}
+          {article && <p className="mt-3">{article}</p>}
         </div>
       )}
       {children}

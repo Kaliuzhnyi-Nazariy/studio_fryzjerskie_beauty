@@ -35,7 +35,7 @@ const Services = () => {
     >
       <div className="xl:w-4/5 mx-auto">
         <h3 className={titleStyles}>{t("main_services")}</h3>
-        <ul className={listStyles}>
+        <ul className={listStyles} aria-label={t("main_services")}>
           {services.main.map((s) => {
             const IconComponent = customIcon[s.id];
             return (
@@ -53,22 +53,34 @@ const Services = () => {
           })}
         </ul>
         <h3 className={titleStyles}>{t("extra_services")}</h3>
-        <ul className={listStyles}>
+        <ul className={listStyles} aria-label={t("extra_services")}>
           {services.extra.map((s) => {
             const IconComponent = customIcon[s.id];
             return (
-              <li
-                key={s.id}
-                className="w-full max-w-65 p-6 rounded-lg bg-bg text-text border border-text/30 shadow-[3px_3px_0px_0px_theme(colors.text/30%)] text-center flex flex-col justify-center transition-all"
-              >
-                <div className="size-39.5 mx-auto mb-4">
+              <li key={s.id}>
+                {/* <div className="size-39.5 mx-auto mb-4">
                   {IconComponent && <IconComponent className={iconStyles} />}
                 </div>
-                <h4 className="font-bold text-lg">{t(s.name_key)}</h4>
+                <h3 className="font-bold text-lg">{t(s.name_key)}</h3>
                 <p>
                   {t("price")}: {s.price}
                   {s.currency}
-                </p>
+                </p> */}
+                <Card className="w-full max-w-65">
+                  <div className="size-39.5 mx-auto mb-4">
+                    {IconComponent && (
+                      <IconComponent
+                        className={iconStyles}
+                        aria-hidden="true"
+                      />
+                    )}
+                  </div>
+                  <h4 className="font-bold text-lg">{t(s.name_key)}</h4>
+                  <p>
+                    {t("price")}: {s.price}
+                    {s.currency}
+                  </p>
+                </Card>
               </li>
             );
           })}

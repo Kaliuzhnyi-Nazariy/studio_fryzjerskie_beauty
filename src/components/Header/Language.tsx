@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { FiGlobe } from "react-icons/fi";
 
 const Language = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [isLangOpen, setIsLangOpen] = useState(false);
 
   const languages = [
@@ -14,8 +14,13 @@ const Language = () => {
   return (
     <div className="relative">
       <button
+        id={t("lang-menu-btn")}
         type="button"
         onClick={() => setIsLangOpen(!isLangOpen)}
+        aria-haspopup="true"
+        aria-expanded={isLangOpen}
+        aria-controls="language-menu"
+        aria-label={t("lang-aria") + i18n.language}
         className="flex items-center gap-1.5 px-3 py-2 rounded-full hover:bg-bg/5 dark:hover:bg-text/5 transition-colors text-sm font-medium"
       >
         <FiGlobe className="size-4 opacity-80" />
@@ -31,11 +36,17 @@ const Language = () => {
             onClick={() => setIsLangOpen(false)}
           />
 
-          <ul className="absolute right-0 mt-2 w-32 bg-bg border border-text rounded-xl shadow-lg py-1.5 z-50 animate-in fade-in slide-in-from-top-1 duration-150">
+          <ul
+            id={t("lang-menu")}
+            role="menu"
+            aria-labelledby={t("lang-menu-btn")}
+            className="absolute right-0 mt-2 w-32 bg-bg border border-text rounded-xl shadow-lg py-1.5 z-50 animate-in fade-in slide-in-from-top-1 duration-150"
+          >
             {languages.map((lang) => (
               <li key={lang.code}>
                 <button
                   type="button"
+                  role="menuitem"
                   onClick={() => {
                     i18n.changeLanguage(lang.code);
                     setIsLangOpen(false);

@@ -7,10 +7,17 @@ import OurTeam from "./components/OurTeam";
 import "keen-slider/keen-slider.min.css";
 import Appointment from "./components/Appointment";
 import Footer from "./components/Footer";
+import { useTranslation } from "react-i18next";
 
 export type Theme = "dark" | "light";
 
 function App() {
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    document.documentElement.setAttribute("lang", i18n.language);
+  }, [i18n.language]);
+
   const [theme, setTheme] = useState<Theme>(() => {
     return (localStorage.getItem("app-theme") as Theme) || "light";
   });

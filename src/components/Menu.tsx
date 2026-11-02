@@ -19,7 +19,7 @@ const Menu = ({
 
   return (
     <div
-      className={`w-full h-screen fixed top-0 left-0 z-50 transition-colors duration-300 ${
+      className={`w-full h-dvh fixed top-0 left-0 z-50 transition-colors duration-300 ${
         isOpen
           ? "bg-text/30 pointer-events-auto"
           : "bg-transparent pointer-events-none"

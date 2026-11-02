@@ -17,6 +17,8 @@ const Menu = ({
 }) => {
   const { t } = useTranslation();
 
+  if (!isOpen) return null;
+
   return (
     <div
       className={`w-full h-screen fixed top-0 left-0 z-50 transition-colors duration-300 ${

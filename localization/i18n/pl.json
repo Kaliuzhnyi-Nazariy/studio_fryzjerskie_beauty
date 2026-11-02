@@ -18,5 +18,15 @@
     "hair_wash": "Mycie głowy"
   },
   "our_team_article": "Za każdą udaną metamorfozą stoi stylista z pasją! Jesteśmy zespołem profesjonalistów, którzy uwielbiają łączyć najnowsze trendy z serdeczną, sąsiedzką atmosferą. Nie tylko strzyżemy i farbujemy – przede wszystkim słuchamy i dopasowujemy każdą fryzurę do Twojego stylu życia. Światowy poziom usług czeka tuż za rogiem. Wpadnij i poznaj nas bliżej!",
-  "appointment_article": "Wybierz usługę oraz swojego ulubionego stylistę. Pozwól nam zadbać o Twoje piękno i samopoczucie w wyjątkowej atmosferze."
+  "appointment_article": "Wybierz usługę oraz swojego ulubionego stylistę. Pozwól nam zadbać o Twoje piękno i samopoczucie w wyjątkowej atmosferze.",
+  "appointment-aria": "Zadzwoń pod numer: ",
+  "mob_navigation": "Nawigacja mobilna",
+  "main-mob_navigation": "Główna nawigacja mobilna",
+  "desktop_navigation": "Główna nawigacja na komputer",
+  "close-menu": "Zamknij menu",
+  "open-menu": "Otwórz menu",
+  "toggle-theme": "Przełącz motyw",
+  "lang-menu-btn": "przycisk-menu-języka",
+  "lang-menu": "menu-języka",
+  "lang-area": "Zmień język. Bieżący język: "
 }

@@ -18,5 +18,15 @@
     "hair_wash": "Hair wash"
   },
   "our_team_article": "Behind every great hair day is a passionate stylist! We are a team of skilled professionals who love combining the latest trends with a friendly, neighborhood vibe. We don't just cut and color—we listen, tailoring every look to your unique lifestyle. World-class talent is right around your corner. Drop by and meet us!",
-  "appointment_article": "Select a service and your favorite stylist. Let us take care of your beauty and well-being in an exceptional atmosphere."
+  "appointment_article": "Select a service and your favorite stylist. Let us take care of your beauty and well-being in an exceptional atmosphere.",
+  "appointment-aria": "Call the number: ",
+  "mob_navigation": "Mobile navigation",
+  "main-mob_navigation": "Mobile main navigation",
+  "desktop_navigation": "Desktop main navigation",
+  "close-menu": "Close menu",
+  "open-menu": "Open menu",
+  "toggle-theme": "Toggle theme",
+  "lang-menu-btn": "language-menu-button",
+  "lang-menu": "language-menu",
+  "lang-area": "Change language. Current language: "
 }

@@ -28,5 +28,9 @@
   "toggle-theme": "Przełącz motyw",
   "lang-menu-btn": "przycisk-menu-języka",
   "lang-menu": "menu-języka",
-  "lang-aria": "Zmień język. Bieżący język: "
+  "lang-aria": "Zmień język. Bieżący język: ",
+  "time_label": "Godziny pracy",
+  "appointment_hours_article": "Nasze studio pracuje w tych godzinach:",
+  "mon_fri": "Pon - Pt:",
+  "saturday": "Sobota:"
 }

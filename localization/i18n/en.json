@@ -28,5 +28,9 @@
   "toggle-theme": "Toggle theme",
   "lang-menu-btn": "language-menu-button",
   "lang-menu": "language-menu",
-  "lang-aria": "Change language. Current language: "
+  "lang-aria": "Change language. Current language: ",
+  "time_label": "Working hours",
+  "appointment_hours_article": "Our studio is working in those hours:",
+  "mon_fri": "Mon - Fri:",
+  "saturday": "Saturday:"
 }

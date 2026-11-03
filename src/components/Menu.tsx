@@ -31,7 +31,7 @@ const Menu = ({
         role="dialog"
         aria-modal="true"
         aria-label={t("mob_navigation")}
-        className={`w-4/5 min-[425px]:w-3/5 bg-bg text-text p-5 h-screen absolute right-0 transition-all duration-300 flex flex-col md:w-2/5 ${
+        className={`w-4/5 min-[425px]:w-3/5 bg-bg text-text p-5 h-dvh absolute right-0 transition-all duration-300 flex flex-col md:w-2/5 ${
           isOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
         }`}
         onClick={(e) => e.stopPropagation()}

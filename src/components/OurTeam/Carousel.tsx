@@ -30,7 +30,7 @@ const Workers = () => {
         return (
           <Card
             key={w.id}
-            className="keen-slider__slide flex flex-col  gap-3 overflow-hidden min-w-0 h-full p-6 text-center items-center"
+            className="keen-slider__slide flex flex-col  gap-3 overflow-hidden min-w-0 h-auto p-6 text-center items-center"
             role="group"
             aria-roledescription="slide"
             aria-label={`${index + 1} z ${

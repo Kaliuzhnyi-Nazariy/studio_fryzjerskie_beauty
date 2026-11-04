@@ -4,8 +4,9 @@ import services from "../../../studio/services.json";
 import { Trimmer } from "../../svg/Trimmer";
 import { Scissors } from "../../svg/Scissors";
 import { Coloring } from "../../svg/Coloring";
-import { WashingHead } from "../../svg/WashingHead";
+// import { WashingHead } from "../../svg/WashingHead";
 import Card from "../Card";
+import Eyeleshes from "../../svg/Eyeleshes";
 
 const Services = () => {
   const { t } = useTranslation();
@@ -21,10 +22,10 @@ const Services = () => {
     string,
     React.ComponentType<{ className: string }>
   > = {
-    simple_haircut: Trimmer,
-    standard_haircut: Scissors,
+    haircut: Trimmer,
+    styling: Scissors,
     hair_coloring: Coloring,
-    hair_wash: WashingHead,
+    eyelashes: Eyeleshes,
   };
 
   return (
@@ -37,6 +38,7 @@ const Services = () => {
         <h3 className={titleStyles}>{t("main_services")}</h3>
         <ul className={listStyles} aria-label={t("main_services")}>
           {services.main.map((s) => {
+            console.log(s);
             const IconComponent = customIcon[s.id];
             return (
               <li key={s.id}>

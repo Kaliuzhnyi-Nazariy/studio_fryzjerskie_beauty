@@ -9,13 +9,13 @@
   "main_services": "Main services",
   "extra_services": "Extra services",
   "services_list": {
-    "simple_haircut": "Simple haircut",
-    "standard_haircut": "Haircut",
+    "haircut": "Haircut",
+    "styling": "Styling",
     "hair_coloring": "Hair coloring"
   },
   "price": "Price",
   "extra_services_list": {
-    "hair_wash": "Hair wash"
+    "eyelashes": "Eyelashes"
   },
   "our_team_article": "Behind every great hair day is a passionate stylist! We are a team of skilled professionals who love combining the latest trends with a friendly, neighborhood vibe. We don't just cut and color—we listen, tailoring every look to your unique lifestyle. World-class talent is right around your corner. Drop by and meet us!",
   "appointment_article": "Select a service and your favorite stylist. Let us take care of your beauty and well-being in an exceptional atmosphere.",

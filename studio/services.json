@@ -1,14 +1,14 @@
 {
   "main": [
     {
-      "id": "simple_haircut",
-      "name_key": "services_list.simple_haircut",
+      "id": "haircut",
+      "name_key": "services_list.haircut",
       "price": 50,
       "currency": "PLN"
     },
     {
-      "id": "standard_haircut",
-      "name_key": "services_list.standard_haircut",
+      "id": "styling",
+      "name_key": "services_list.styling",
       "price": 55,
       "currency": "PLN"
     },
@@ -21,9 +21,9 @@
   ],
   "extra": [
     {
-      "id": "hair_wash",
-      "name_key": "extra_services_list.hair_wash",
-      "price": 5,
+      "id": "eyelashes",
+      "name_key": "extra_services_list.eyelashes",
+      "price": 200,
       "currency": "PLN"
     }
   ]

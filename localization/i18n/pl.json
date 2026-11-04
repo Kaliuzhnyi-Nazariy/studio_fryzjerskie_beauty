@@ -9,13 +9,13 @@
   "main_services": "Usługi główne",
   "extra_services": "Usługi dodatkowe",
   "services_list": {
-    "simple_haircut": "Strzyżenie proste",
-    "standard_haircut": "Strzyżenie",
+    "haircut": "Strzyżenie",
+    "styling": "Modelowanie",
     "hair_coloring": "Koloryzacja"
   },
   "price": "Cena",
   "extra_services_list": {
-    "hair_wash": "Mycie głowy"
+    "eyelashes": "Rzęsy"
   },
   "our_team_article": "Za każdą udaną metamorfozą stoi stylista z pasją! Jesteśmy zespołem profesjonalistów, którzy uwielbiają łączyć najnowsze trendy z serdeczną, sąsiedzką atmosferą. Nie tylko strzyżemy i farbujemy – przede wszystkim słuchamy i dopasowujemy każdą fryzurę do Twojego stylu życia. Światowy poziom usług czeka tuż za rogiem. Wpadnij i poznaj nas bliżej!",
   "appointment_article": "Wybierz usługę oraz swojego ulubionego stylistę. Pozwól nam zadbać o Twoje piękno i samopoczucie w wyjątkowej atmosferze.",

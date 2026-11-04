@@ -15,52 +15,32 @@
       "en": ["Balayage coloring", "Modern haircutting", "Occasion hairstyles"]
     },
     "availability": {
-      "pl": "Poniedziałek - Piątek (9:00 - 16:00)",
-      "en": "Monday - Friday (9:00 AM - 4:00 PM)"
+      "pl": "Poniedziałek  - Piątek (09:00 - 17:00), Sobota (09:00 - 14:00)",
+      "en": "Monday - Friday (9:00 AM - 5:00 PM), Saturday (9:00 AM - 2:00 PM)"
     }
   },
   {
     "id": 2,
-    "name": "Karolina Nowak",
+    "name": "Magdalena Jawelska ",
     "role": {
-      "pl": "Kosmetolog / Stylistka Paznokci",
-      "en": "Cosmetologist / Nail Technician"
+      "pl": "Stylistka rzęs",
+      "en": "lash artist"
     },
     "specialties": {
       "pl": [
-        "Manicure kombinowany",
-        "Przedłużanie żelowe",
-        "Zabiegi kwasami AHA"
-      ],
-      "en": ["Combined manicure", "Gel nail extensions", "AHA acid treatments"]
-    },
-    "availability": {
-      "pl": "Wtorek - Sobota (12:00 - 20:00)",
-      "en": "Tuesday - Saturday (12:00 PM - 8:00 PM)"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Magdalena Wiśniewska",
-    "role": {
-      "pl": "Linergistka / Stylistka Rzęs",
-      "en": "Permanent Makeup Artist / Lash Stylist"
-    },
-    "specialties": {
-      "pl": [
-        "Makijaż permanentny brwi",
-        "Przedłużanie rzęs 1:1 / Volume",
-        "Laminacja brwi i rzęs"
+        "Lifting i laminacja rzęs",
+        "Stylizacje Kim Camellia / Wispy",
+        "Przedłużanie rzęs metodą UV"
       ],
       "en": [
-        "Permanent eyebrow makeup",
-        "1:1 & Volume lash extensions",
-        "Brow and lash lamination"
+        "Lash lift and lamination",
+        "Kim Camellia / Wispy styling",
+        "UV system lash extensions"
       ]
     },
     "availability": {
-      "pl": "Poniedziałek, Środa, Piątek (10:00 - 18:00)",
-      "en": "Monday, Wednesday, Friday (10:00 AM - 6:00 PM)"
+      "pl": "Poniedziałek  - Piątek (09:00 - 17:00), Sobota (09:00 - 14:00)",
+      "en": "Monday - Friday (9:00 AM - 5:00 PM), Saturday (9:00 AM - 2:00 PM)"
     }
   }
 ]

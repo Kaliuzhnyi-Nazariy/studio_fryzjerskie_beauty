@@ -18,13 +18,5 @@
       "price": 80,
       "currency": "PLN"
     }
-  ],
-  "extra": [
-    {
-      "id": "eyelashes",
-      "name_key": "extra_services_list.eyelashes",
-      "price": 200,
-      "currency": "PLN"
-    }
   ]
 }

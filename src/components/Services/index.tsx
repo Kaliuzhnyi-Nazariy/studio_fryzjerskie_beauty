@@ -54,20 +54,12 @@ const Services = () => {
             );
           })}
         </ul>
-        <h3 className={titleStyles}>{t("extra_services")}</h3>
+        {/* <h3 className={titleStyles}>{t("extra_services")}</h3>
         <ul className={listStyles} aria-label={t("extra_services")}>
           {services.extra.map((s) => {
             const IconComponent = customIcon[s.id];
             return (
               <li key={s.id}>
-                {/* <div className="size-39.5 mx-auto mb-4">
-                  {IconComponent && <IconComponent className={iconStyles} />}
-                </div>
-                <h3 className="font-bold text-lg">{t(s.name_key)}</h3>
-                <p>
-                  {t("price")}: {s.price}
-                  {s.currency}
-                </p> */}
                 <Card className="w-full max-w-65">
                   <div className="size-39.5 mx-auto mb-4">
                     {IconComponent && (
@@ -86,7 +78,7 @@ const Services = () => {
               </li>
             );
           })}
-        </ul>
+        </ul> */}
       </div>
     </ComponentLayout>
   );

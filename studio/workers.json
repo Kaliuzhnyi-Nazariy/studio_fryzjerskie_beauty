@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Anna Kowalska",
+    "name": "Aneta",
     "role": {
       "pl": "Stylistka Fryzur",
       "en": "Hair Stylist"
@@ -13,30 +13,6 @@
         "Upięcia okolicznościowe"
       ],
       "en": ["Balayage coloring", "Modern haircutting", "Occasion hairstyles"]
-    },
-    "availability": {
-      "pl": "Poniedziałek  - Piątek (09:00 - 17:00), Sobota (09:00 - 14:00)",
-      "en": "Monday - Friday (9:00 AM - 5:00 PM), Saturday (9:00 AM - 2:00 PM)"
-    }
-  },
-  {
-    "id": 2,
-    "name": "Magdalena Jawelska ",
-    "role": {
-      "pl": "Stylistka rzęs",
-      "en": "lash artist"
-    },
-    "specialties": {
-      "pl": [
-        "Lifting i laminacja rzęs",
-        "Stylizacje Kim Camellia / Wispy",
-        "Przedłużanie rzęs metodą UV"
-      ],
-      "en": [
-        "Lash lift and lamination",
-        "Kim Camellia / Wispy styling",
-        "UV system lash extensions"
-      ]
     },
     "availability": {
       "pl": "Poniedziałek  - Piątek (09:00 - 17:00), Sobota (09:00 - 14:00)",

@@ -45,10 +45,10 @@ const Services = () => {
                 <Card>
                   {IconComponent && <IconComponent className={iconStyles} />}
                   <h4 className="font-bold text-lg">{t(s.name_key)}</h4>
-                  <p>
+                  {/* <p>
                     {t("price")}: {s.price}
                     {s.currency}
-                  </p>
+                  </p> */}
                 </Card>
               </li>
             );

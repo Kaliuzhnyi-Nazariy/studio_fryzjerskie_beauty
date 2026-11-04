@@ -8,11 +8,11 @@ const Workers = () => {
   const language = i18n.language;
 
   const [ref] = useKeenSlider<HTMLDivElement>({
-    breakpoints: {
-      "(min-width: 768px)": {
-        slides: { perView: 2, spacing: 20 },
-      },
-    },
+    // breakpoints: {
+    //   "(min-width: 768px)": {
+    //     slides: { perView: 2, spacing: 20 },
+    //   },
+    // },
     slides: { perView: 1, spacing: 16 },
   });
 
@@ -28,41 +28,44 @@ const Workers = () => {
         const workerRole = w.role[language as keyof typeof w.role];
 
         return (
-          <Card
-            key={w.id}
-            className="keen-slider__slide flex flex-col  gap-3 overflow-hidden min-w-0 h-auto p-6 text-center items-center"
-            role="group"
-            aria-roledescription="slide"
-            aria-label={`${index + 1} z ${
-              workers.length
-            }: ${workerName} - ${workerRole}`}
-          >
-            <h3 className="text-lg font-bold">{workerName}</h3>
-            <h4 className="font-semibold mt-1">{workerRole}</h4>
-
-            <ul
-              className="flex flex-col gap-2 w-full my-2 items-center"
-              aria-label={`${t("specialties", {
-                defaultValue: "Specjalizacje",
-              })}: ${workerName}`}
+          <div className="keen-slider__slide flex justify-center pb-2">
+            <Card
+              key={w.id}
+              // className="keen-slider__slide flex flex-col  gap-3 overflow-hidden min-w-0 h-auto p-6 text-center items-center max-w-45!"
+              className="w-full max-w-65"
+              role="group"
+              aria-roledescription="slide"
+              aria-label={`${index + 1} z ${
+                workers.length
+              }: ${workerName} - ${workerRole}`}
             >
-              {w.specialties[language as keyof typeof w.specialties].map(
-                (s) => {
-                  return (
-                    <li
-                      key={s}
-                      className="px-2 py-1 rounded-full bg-white/30 text-xs shrink-0"
-                    >
-                      {s}
-                    </li>
-                  );
-                },
-              )}
-            </ul>
-            <p className="text-xs mt-2">
-              {w.availability[language as keyof typeof w.availability]}
-            </p>
-          </Card>
+              <h3 className="text-lg font-bold">{workerName}</h3>
+              <h4 className="font-semibold mt-1">{workerRole}</h4>
+
+              <ul
+                className="flex flex-col gap-2 w-full my-2 items-center"
+                aria-label={`${t("specialties", {
+                  defaultValue: "Specjalizacje",
+                })}: ${workerName}`}
+              >
+                {w.specialties[language as keyof typeof w.specialties].map(
+                  (s) => {
+                    return (
+                      <li
+                        key={s}
+                        className="px-2 py-1 rounded-full bg-white/30 text-xs shrink-0"
+                      >
+                        {s}
+                      </li>
+                    );
+                  },
+                )}
+              </ul>
+              <p className="text-xs mt-2">
+                {w.availability[language as keyof typeof w.availability]}
+              </p>
+            </Card>
+          </div>
         );
       })}
     </div>
